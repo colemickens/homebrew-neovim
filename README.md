@@ -15,7 +15,12 @@ To **upgrade** from a previous version:
     $ brew update
     $ brew upgrade neovim
 
-To use Python plugins, see [`:help provider-python`][provider-python].
+To use Python plugins:
+
+    $ pip2 install neovim
+    $ pip3 install neovim
+
+For more information about python support, see [`:help nvim-python`][nvim-python].
 
 ## Install (unstable)
 
